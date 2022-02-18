@@ -46,7 +46,7 @@ function App() {
         ) : (
           <Routes>
             <Route
-              path="/"
+              path="/gallery/"
               element={<HomePage img={img} data={data} />}
             ></Route>
             <Route path="/galleria/:id" element={<Details />}></Route>

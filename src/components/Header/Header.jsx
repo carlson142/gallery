@@ -24,7 +24,7 @@ const Container = styled.header`
   }
 `;
 
-const Logo = styled(Link).attrs({ to: "/" })`
+const Logo = styled(Link).attrs({ to: "/gallery/" })`
   font-size: 6rem;
   font-weight: bold;
   color: var(--color-primary-dark-gray);
