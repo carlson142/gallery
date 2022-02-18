@@ -13,6 +13,10 @@ const Container = styled.div`
   align-items: center;
 
   font-size: 10rem;
+
+  @media (max-width: 550px) {
+    font-size: 3.5rem;
+  }
 `;
 
 const NotFound = () => {
