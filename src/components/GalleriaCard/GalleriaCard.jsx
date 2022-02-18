@@ -13,6 +13,10 @@ const Caption = styled.figcaption`
   opacity: 0;
 
   transition: all 0.2s ease-in;
+
+  @media (max-width: 550px) {
+    opacity: 1;
+  }
 `;
 
 const Image = styled.img`
